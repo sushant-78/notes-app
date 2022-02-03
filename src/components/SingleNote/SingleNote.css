@@ -1,0 +1,57 @@
+.note {
+    display: flex;
+    flex-direction: column;
+
+    max-height: 340px;
+    overflow: auto;
+    padding: 1.5rem 1.2rem;
+
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note_title {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.note_title h3 {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.note_title p {
+    font-size: 0.8rem;
+}
+
+.note_description {
+    margin-bottom: 1rem;
+}
+
+.note_btn {
+    text-align: center;
+}
+
+.note_info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.note_delete-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    min-height: 24px;
+}
+
+.note_color {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+}

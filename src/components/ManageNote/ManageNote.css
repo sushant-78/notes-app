@@ -1,0 +1,53 @@
+.note-form {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.note-form_header {
+    margin-bottom: 1.2rem;
+}
+
+.note-form_error {
+    text-align: center;
+    color: #f00;
+}
+
+.note-form_error p {
+    text-align: center;
+}
+
+.note-form label,
+.note-form input,
+.note-form textarea {
+    display: block;
+    width: 90%;
+}
+
+.note-form label {
+    margin-bottom: 5px;
+}
+
+.note-form input,
+.note-form textarea {
+    padding: 0.6rem;
+    border: solid 1px #bdc7d8;
+}
+
+.note-form_body > .note-form_body_input-container {
+    margin: 0.7rem 0;
+}
+
+.note-form p {
+    margin-bottom: 0.7rem;
+}
+
+.note-form_btn-container button {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.note-form_colors {
+    margin-bottom: 1.5rem;
+}
